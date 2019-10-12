@@ -1,0 +1,39 @@
+public class Bilangan1
+{
+    public static void main(String[] args)
+    {
+    int bil1,bil2,bil3;
+    bil1=2;
+    bil2=3;
+    bil3=4;
+    if (bil1>bil2 && bil1>bil3)
+    	{
+        System.out.println("Bil1 Bilangan Terbesar");
+        }
+        else
+        {
+	if (bil2>bil1 && bil2>bil3)
+   		{
+        System.out.println("Bil2  Bilangan Terbesar");
+        }
+	if (bil3>bil1 && bil3>bil2)
+        {
+        System.out.println("Bil3 Bilangan Terbesar");
+        }
+	if (bil1<bil2 && bil1<bil3)
+		{
+		System.out.println("Bil1 Bilangan Terkecil");
+		}
+		else
+		{
+	if (bil2<bil1 && bil2<bil3)
+		{
+		System.out.println("Bil2  Bilangan Terkecil");
+		}
+	if (bil3<bil1 && bil3<bil2)
+		{
+		System.out.println("Bil3 Bilangan Terkecil");
+        }
+        }
+    }
+}
